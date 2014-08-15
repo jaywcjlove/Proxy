@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FBE11FDA-FCFC-47C8-BF53-C77070BF4A39</string>
+	<key>IDESourceControlProjectName</key>
+	<string>testpox</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3B90C25C76897FD21BAFBBF400841B4CBA333658</key>
+		<string>https://github.com/jaywcjlove/ProxySock.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>testpox.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3B90C25C76897FD21BAFBBF400841B4CBA333658</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jaywcjlove/ProxySock.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3B90C25C76897FD21BAFBBF400841B4CBA333658</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3B90C25C76897FD21BAFBBF400841B4CBA333658</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Proxy</string>
+		</dict>
+	</array>
+</dict>
+</plist>

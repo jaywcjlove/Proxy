@@ -47,8 +47,9 @@ int main(int argc, const char * argv[])
                 NSString *hardware = [dict valueForKeyPath:@"Interface.Hardware"];
                 //        NSLog(@"%@", hardware);
                 if ([hardware isEqualToString:@"AirPort"] || [hardware isEqualToString:@"Wi-Fi"] || [hardware isEqualToString:@"Ethernet"]) {
-                    [proxies setObject:@"127.0.0.1" forKey:(NSString *)kCFNetworkProxiesProxyAutoConfigURLString];
-                    [proxies setObject:[NSNumber numberWithInt:1] forKey:(NSString *)kCFNetworkProxiesProxyAutoConfigEnable];
+                    [proxies setObject:@"127.0.0.1" forKey:(NSString *)kCFNetworkProxiesSOCKSProxy];
+                    [proxies setObject:[NSNumber numberWithInt:9370] forKey:(NSString *)kCFNetworkProxiesSOCKSPort];
+                    [proxies setObject:[NSNumber numberWithInt:1] forKey:(NSString *)kCFNetworkProxiesSOCKSEnable];
                     SCPreferencesPathSetValue(prefRef, (__bridge CFStringRef)[NSString stringWithFormat:@"/%@/%@/%@", kSCPrefNetworkServices, key, kSCEntNetProxies], (__bridge CFDictionaryRef)proxies);
                 }
             }
